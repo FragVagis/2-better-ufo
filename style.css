@@ -1,0 +1,54 @@
+.number {
+    font-size: 60px;
+} 
+
+/* Split the screen in half */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  /* Control the left side */
+.left {
+    left: 0;
+    display: inline-block;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    display: inline-block;
+  }
+
+  /* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  
+    /* Mama padare */
+  .mygtukas {
+    border-color: #279af6;
+    color: #279af6;
+    background-color: white;
+    padding: 16px 40px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border-width: 3px;
+  }
+  
+  h1 {
+    margin: 0%;
+  }
