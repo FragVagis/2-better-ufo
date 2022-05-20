@@ -5,7 +5,7 @@
     text-align: left;
 } 
 
-.title {
+.headingas {
     color:#868d92;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: left;
@@ -19,57 +19,20 @@ h2 {
     margin: 0%;
 }
 
-/* Split the screen in half */
 
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-
-  /* Control the left side */
-.left {
-    left: 0;
-    display: inline-block;
-  }
-  
-  /* Control the right side */
-  .right {
-    right: 0;
-    display: inline-block;
-  }
-
-  /* If you want the content centered horizontally and vertically */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-  }
-
-  /* Style the image inside the centered container, if needed */
-.centered img {
-    width: 500px;
-    height: auto;
-}
-  
     /* Mama padare */
-  .mygtukas {
-    border-color: #279af6;
+   .mygtukas {
     color: #279af6;
     background-color: white;
     padding: 16px 40px;
+    margin-top: 20px;
     text-align: left;
     display: inline-block;
     font-size: 16px;
+    border-color: #279af6!important;
     border-radius: 50px;
-    margin-top: 20px;
     border-width: 3px;
+    text-decoration: none;
   }
 
   
